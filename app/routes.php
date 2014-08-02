@@ -17,6 +17,8 @@ Route::get('/test', 'TestController@testFunction');
 
 Route::get('/contestant/index', 'ContestantController@listContestant');
 
+Route::get('/contestant', 'ContestantController@listContestant');
+
 Route::get('/contestant/create', 'ContestantController@createContestant');
 
 Route::post('/contestant/create', 'ContestantController@doCreateContestant');
