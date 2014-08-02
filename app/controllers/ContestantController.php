@@ -5,7 +5,7 @@ use Illuminate\Support\Facades\Redirect;
 class ContestantController extends BaseController {
 	
 	public function listContestant() {
-		$contestants = Contestant::all();
+		$contestants = Contestant::orderBy('lx_id', 'ASC')->get();
 		return View::make('contestant.list', array('contestants' => $contestants));
 	}
 	
