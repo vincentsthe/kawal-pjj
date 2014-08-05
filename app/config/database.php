@@ -57,7 +57,7 @@ return array(
 			'host'      => 'localhost',
 			'database'  => 'kawal_pjj',
 			'username'  => 'root',
-			'password'  => 'rahasia',
+			'password'  => 'tokitoki',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',

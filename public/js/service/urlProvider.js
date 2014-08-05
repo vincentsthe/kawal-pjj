@@ -1,5 +1,5 @@
 pjjApp.factory('urlProvider', function() {
-	var baseUrl = 'http://localhost:8000';
+	var baseUrl = 'http://kawalpjj.tokigate.org';
 	
 	var factory = {
 		getMeanScore: function() {
