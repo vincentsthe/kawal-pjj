@@ -3,6 +3,7 @@
 <html ng-app="pjjApp">
 	<head>
 		<title>Kawal PJJ</title>
+		<link rel="shortcut icon" type="image/ico" href='/images/favicon.ico'>
 		{{ HTML::style('css/bootstrap.min.css'); }}
 		{{ HTML::style('css/main.css'); }}
 		{{ HTML::style('css/layout.css'); }}
@@ -54,7 +55,7 @@
 				<div class="pull-left first">
 					<div class="col-md-12">
 						<div class="copyright">
-							&#169; 2014 Made By vincentsthe
+							&#169; 2014 Tim Olimpiade Komputer Indonesia
 						</div>
 					</div>
 				</div>
