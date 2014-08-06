@@ -11,6 +11,9 @@ pjjApp.factory('chartDrawer', function() {
 			var margin = {left: 80, right: 10, top: 20, bottom: 50};
 			var width = divWidth - margin.left - margin.right;
 			var height = divHeight - margin.top - margin.bottom;
+			data = data.map(function(d) {
+				return parseInt(d);
+			});
 			
 			var x = d3.scale.linear()
 						.domain([0, data.length-1])
