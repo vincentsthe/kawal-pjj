@@ -41,7 +41,7 @@ class Submission extends Eloquent {
 		}
 		
 		$hasil = array();
-		for($i=1 ; $i<count($return) ; $i++) {
+		for($i=count($return)-1 ; $i>0 ; $i--) {
 			$return[$i] -= $return[$i-1];
 		}
 		for($i=0 ; $i<count($return) ; $i++) {
