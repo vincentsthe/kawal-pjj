@@ -40,7 +40,7 @@ class Contestant extends Eloquent {
 			$return[$submission->day] = $submission->count;
 		}
 		
-		for($i=1 ; $i<count($return) ; $i++) {
+		for($i=count($return) ; $i>0 ; $i--) {
 			$return[$i] -= $return[$i-1];
 		}
 		
